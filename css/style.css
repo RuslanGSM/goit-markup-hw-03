@@ -322,10 +322,16 @@ body {
   margin-bottom: 0;
 }
 .team-card {
+  
   display: flex;
   flex-wrap: wrap;
   background: var(--primary-background-color);
-  justify-content: center;
+}
+.team-card-content {
+  width: 264px;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-list {
@@ -334,7 +340,7 @@ body {
 }
 .team-list li {
   margin-right: 24px;
-  }
+}
 .team-title {
   margin-top: 0;
   margin-bottom: 8px;
@@ -344,9 +350,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--title-color);
-  
 }
-
 
 /* Footer */
 
