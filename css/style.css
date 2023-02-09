@@ -260,6 +260,14 @@ body {
 .decoration {
   text-decoration: none;
 }
+.projects-list{
+  margin-bottom: 120px;
+}
+
+.projects-card{
+  margin-bottom: 48px;
+  border: 1px solid #E7E9FC;
+}
 
 .projects-card-content {
   margin-left: 15px;
