@@ -59,7 +59,6 @@ body {
   padding-left: 0;
   padding-right: 0;
   width: 1128px;
-  outline: 2px solid tomato;
   justify-content: space-between;
 }
 /* Top line */
@@ -335,7 +334,7 @@ body {
 }
 .team-list li {
   margin-right: 24px;
-}
+  }
 .team-title {
   margin-top: 0;
   margin-bottom: 8px;
@@ -345,7 +344,9 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--title-color);
+  
 }
+
 
 /* Footer */
 
