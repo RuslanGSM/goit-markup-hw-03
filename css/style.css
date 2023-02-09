@@ -266,13 +266,14 @@ body {
 
 .projects-card{
   margin-bottom: 48px;
-  border: 1px solid #E7E9FC;
+  
 }
 
 .projects-card-content {
-  margin-left: 15px;
+  padding-left: 15px;
   padding-top: 32px;
   padding-bottom: 32px;
+  border: 1px solid #E7E9FC;
 }
 .title h2 {
   padding-top: 0;
