@@ -58,17 +58,16 @@ body {
   width: 1158px;
 }
 /* Top line */
-display: flex;
-text-align: center;
-flex-wrap: wrap;
 
 .page-header {
+  
 }
 
 .main-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #E7E9FC;
 }
 
 .logo {
@@ -212,12 +211,13 @@ flex-wrap: wrap;
 /* Portfolio-seсtion */
 
 .portfolio-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .filters-list {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 96px;
   margin-bottom: 72px;
   display: flex;
   align-items: center;
