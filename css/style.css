@@ -269,7 +269,9 @@ body {
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-}
+  margin-right: -24px;
+  margin-bottom: -48px;
+  }
 
 .projects-list .item {
   width: 360px;
