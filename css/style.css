@@ -283,8 +283,8 @@ body {
 }
 
 .projects-card-content {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
   padding-top: 32px;
   padding-bottom: 32px;
   border: 1px solid #e7e9fc;
@@ -382,6 +382,7 @@ body {
 
 .team-list {
   display: flex;
+  max-width: 100%;
 }
 .team-list li {
   width: calc((100% - (3 * 24px) / 4));
